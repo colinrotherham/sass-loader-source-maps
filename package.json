@@ -1,0 +1,17 @@
+{
+  "name": "@colinrotherham/sass-loader-source-maps",
+  "version": "1.0.0",
+  "description": "Example repo showing sass-loader source maps issue",
+  "type": "module",
+  "scripts": {
+    "build": "NODE_ENV=${NODE_ENV:-production} webpack"
+  },
+  "devDependencies": {
+    "@types/govuk-frontend": "^5.4.0",
+    "govuk-frontend": "^5.4.1",
+    "sass-embedded": "^1.77.8",
+    "sass-loader": "^16.0.0",
+    "webpack": "^5.93.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
